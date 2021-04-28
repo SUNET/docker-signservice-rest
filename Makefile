@@ -4,7 +4,7 @@ VERSION := 1.0.0
 all: build push
 
 build: 
-	./build.sh --version $(VERSION) -i signservice-integration-rest --tag $(VERSION)
+	./build.sh $(EIDAS_BUILD_ARGS) --version $(VERSION) -i signservice-integration-rest --tag $(VERSION)
 
 push:
 	docker tag signservice-integration-rest:$(VERSION) docker.sunet.se/signservice-integration-rest:$(VERSION)
