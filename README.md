@@ -1,6 +1,6 @@
 
 ---
-# CURRENT BUILD VERSION = 1.1.0
+# CURRENT BUILD VERSION = 1.1.1
 ---
 # docker-signservice-rest
 
