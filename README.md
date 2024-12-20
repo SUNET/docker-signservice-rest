@@ -1,6 +1,9 @@
 
 ---
-# CURRENT BUILD VERSION = 1.1.1
+# CURRENT BUILD VERSION = 2.3.0
+
+[Release notes](https://idsec-solutions.github.io/signservice-integration-rest/release-notes.html)
+
 ---
 # docker-signservice-rest
 

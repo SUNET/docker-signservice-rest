@@ -1,4 +1,4 @@
-FROM openjdk:11-jre
+FROM openjdk:21-jdk
 VOLUME /tmp
 ADD target/signservice-integration-rest.jar /opt/signservice/
 ADD start.sh /opt/signservice/
@@ -10,4 +10,4 @@ ENV JAVA_OPTS="-Dorg.apache.xml.security.ignoreLineBreaks=true -Dorg.apache.xml.
 ENTRYPOINT /opt/signservice/start.sh
 
 EXPOSE 8443
-EXPOSE 8009
+EXPOSE 8444
