@@ -1,4 +1,5 @@
 FROM openjdk:21-jdk
+RUN microdnf install openssl
 VOLUME /tmp
 ADD target/signservice-integration-rest.jar /opt/signservice/
 ADD start.sh /opt/signservice/
