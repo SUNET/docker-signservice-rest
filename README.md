@@ -1,6 +1,6 @@
 
 ---
-# CURRENT BUILD VERSION = 2.3.1
+# CURRENT BUILD VERSION = 2.4.1
 
 [Release notes](https://idsec-solutions.github.io/signservice-integration-rest/release-notes.html)
 
